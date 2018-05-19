@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bai1</string>
+    <string name="cal_nhan">/</string>
+    <string name="cal_chia">*</string>
+    <string name="cal_cong">+</string>
+    <string name="col_tru">-</string>
+    <string name="col_bang">=</string>
+</resources>

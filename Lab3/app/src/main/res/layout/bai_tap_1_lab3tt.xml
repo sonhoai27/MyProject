@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.it.sonh.bai1.BaiTap1Lab3tt">
+    <EditText
+        android:layout_toStartOf="@id/ck2"
+        android:layout_toEndOf="@id/ck1"
+        android:id="@+id/edit"
+        android:hint="Son Hoai IT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ck1"
+        android:layout_toLeftOf="@id/ck2" />
+    <Button
+        android:layout_below="@id/edit"
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ok_button"
+        android:layout_toStartOf="@+id/ok_button"
+        android:text="Cancel" />
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edit"
+        android:text="OK"
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/ck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_alignParentRight="true"
+        android:id="@+id/ck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

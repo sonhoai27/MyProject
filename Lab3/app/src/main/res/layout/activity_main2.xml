@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.it.sonh.bai1.Main2Activity">
+    <RelativeLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/col11"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/col12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col11"
+            android:layout_toRightOf="@+id/col11"
+            android:text="1" />
+        <Button
+            android:id="@+id/col13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col12"
+            android:layout_toRightOf="@+id/col12"
+            android:text="1" />
+        <Button
+            android:id="@+id/col14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col13"
+            android:layout_toRightOf="@id/col13"
+            android:text="1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/row1"
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/col21"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/col22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col21"
+            android:layout_toRightOf="@+id/col21"
+            android:text="1" />
+        <Button
+            android:id="@+id/col23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col22"
+            android:layout_toRightOf="@+id/col22"
+            android:text="1" />
+        <Button
+            android:id="@+id/col24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col23"
+            android:layout_toRightOf="@id/col23"
+            android:text="1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/row2"
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/col31"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/col32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col31"
+            android:layout_toRightOf="@+id/col31"
+            android:text="1" />
+        <Button
+            android:id="@+id/col33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col32"
+            android:layout_toRightOf="@+id/col32"
+            android:text="1" />
+        <Button
+            android:id="@+id/col34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/col33"
+            android:layout_toRightOf="@id/col33"
+            android:text="1" />
+    </RelativeLayout>
+</RelativeLayout>
